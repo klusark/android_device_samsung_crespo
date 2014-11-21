@@ -47,6 +47,8 @@ TARGET_SEC_INTERNAL_STORAGE := false
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 
+TARGET_USES_LOGD := false
+
 # USE_CAMERA_STUB := true
 # ifeq ($(USE_CAMERA_STUB),false)
 # BOARD_CAMERA_LIBRARIES := libcamera
@@ -63,7 +65,7 @@ BOARD_NAND_SPARE_SIZE := 128
 
 BOARD_KERNEL_BASE := 0x30000000
 BOARD_KERNEL_PAGESIZE := 4096
-BOARD_KERNEL_CMDLINE := console=ttyFIQ0 no_console_suspend
+BOARD_KERNEL_CMDLINE := console=ttyFIQ0 no_console_suspend androidboot.selinux=permissive
 
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TARGET_RECOVERY_UI_LIB := librecovery_ui_crespo

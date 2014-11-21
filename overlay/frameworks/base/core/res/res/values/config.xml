@@ -207,7 +207,7 @@
     <integer name="config_soundEffectVolumeDb">-12</integer>
 
     <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!--<bool name="config_enableTorch">true</bool>-->
 
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->

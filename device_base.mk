@@ -162,7 +162,7 @@ PRODUCT_PACKAGES += \
 
 # Libs
 PRODUCT_PACKAGES += \
-	libcamera \
+#	libcamera \
 	libstagefrighthw \
 	com.android.future.usb.accessory
 
